@@ -83,8 +83,8 @@
         "mainContentHeader": "Your device will restart during this upgrade",
         "mainContentNote": "Important Notes",
         "mainContentSubHeader": "This macOS upgrade can take around 45 minutes to complete",
-        "mainContentText": "\n\nIn order to adequately protect your device and the data stored on it, a macOS upgrade is required. Click the More Info button for information about macOS Monterey.\n\nYou may click the Not Now button to defer the upgrade, but as the required installation date approaches, this message will appear more often and more persistently. Please upgrade as soon as possible to avoid interruptions to your work. If you have any questions, please ask your campus' Area Tech or Digital Learning Coach.\n\nTo begin the upgrade, simply click the Upgrade macOS button. The installation process will begin shortly thereafter.",
-        "mainHeader": "Your MacBook requires a macOS Upgrade",
+        "mainContentText": "In order to adequately protect your device and the data stored on it, a macOS upgrade is required. Click the More Info button for information about macOS Monterey.\n\nYou may click the Not Now button to defer the upgrade, but as the required installation date approaches, this message will appear more often and more persistently. Please upgrade as soon as possible to avoid interruptions to your work. If you have any questions, please ask your campus' Area Tech or Digital Learning Coach.\n\nTo begin the upgrade, simply click the Upgrade macOS button. The installation process will begin shortly thereafter.",
+        "mainHeader": "Your Mac requires a macOS Upgrade",
         "primaryQuitButtonText": "Not Now",
         "secondaryQuitButtonText": "I Understand",
         "subHeader": "A friendly reminder from the Frisco ISD Technology department"
