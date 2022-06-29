@@ -25,7 +25,7 @@
           "aboutUpdateURL": "https://www.apple.com/macos/monterey"
         }
       ],
-      "majorUpgradeAppPath": "jamfselfservice://content?entity=policy&id=5692&action=execute",
+      "majorUpgradeAppPath": "/Applications/Install macOS Monterey.app",
       "requiredInstallationDate": "2022-07-15T05:01:00Z",
       "requiredMinimumOSVersion": "12.4",
       "targetedOSVersions": [
@@ -66,6 +66,7 @@
     "randomDelay": false
   },
   "userInterface": {
+    "actionButtonPath": "jamfselfservice://content?entity=policy&id=5692&action=execute",
     "fallbackLanguage": "en",
     "forceFallbackLanguage": false,
     "forceScreenShotIcon": false,
