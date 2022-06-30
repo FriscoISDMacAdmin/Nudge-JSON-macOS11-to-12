@@ -2,6 +2,18 @@
   "optionalFeatures": {
     "asyncronousSoftwareUpdate": true,
     "attemptToFetchMajorUpgrade": true,
+    "acceptableApplicationBundleIDs": [
+      "us.zoom.xos",
+      "com.cisco.webexmeetingsapp",
+      "com.apple.FaceTime",
+      "com.microsoft.teams",
+      "com.jamfsoftware.selfservice.mac",
+      "com.reincubate.macos.cam"
+    ],
+    "acceptableCameraUsage": true,
+    "acceptableScreenSharingUsage": true,
+    "aggressiveUserExperience": false,
+    "aggressiveUserFullScreenExperience": false,
     "enforceMinorUpdates": true
   },
   "osVersionRequirements": [
