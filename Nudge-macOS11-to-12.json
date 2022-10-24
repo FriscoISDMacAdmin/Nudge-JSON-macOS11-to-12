@@ -1,7 +1,7 @@
 {
   "optionalFeatures": {
     "asyncronousSoftwareUpdate": true,
-    "attemptToFetchMajorUpgrade": true,
+    "attemptToFetchMajorUpgrade": false,
     "acceptableApplicationBundleIDs": [
       "us.zoom.xos",
       "com.cisco.webexmeetingsapp",
@@ -38,8 +38,8 @@
         }
       ],
       "majorUpgradeAppPath": "/Applications/Install macOS Monterey.app",
-      "requiredInstallationDate": "2022-11-30T05:01:00Z",
-      "requiredMinimumOSVersion": "12.0.1",
+      "requiredInstallationDate": "2022-12-01T05:01:00Z",
+      "requiredMinimumOSVersion": "12.6.1",
       "targetedOSVersions": [
         "11.0",
         "11.0.1",
@@ -59,18 +59,22 @@
         "11.6.2",
         "11.6.3",
         "11.6.4",
+        "11.6.5",
+        "11.6.6",
         "11.6.7",
-        "11.6.8"
+        "11.6.8",
+        "11.7",
+        "11.7.1"
       ]
     }
   ],
   "userExperience": {
     "allowedDeferrals": 1000000,
     "allowedDeferralsUntilForcedSecondaryQuitButton": 5,
-    "approachingRefreshCycle": 3600,
+    "approachingRefreshCycle": 2700,
     "approachingWindowTime": 48,
-    "elapsedRefreshCycle": 300,
-    "imminentRefreshCycle": 600,
+    "elapsedRefreshCycle": 150,
+    "imminentRefreshCycle": 420,
     "imminentWindowTime": 24,
     "initialRefreshCycle": 9000,
     "maxRandomDelayInSeconds": 1200,
@@ -98,7 +102,7 @@
         "mainContentNote": "Important Notes",
         "mainContentSubHeader": "This macOS upgrade can take around 45 minutes to complete",
         "mainContentText": "In order to adequately protect your device and the data stored on it, a macOS upgrade is required. Click the More Info button for information about macOS Monterey.\n\nYou may click the Not Now button to defer the upgrade, but as the required installation date approaches, this message will appear more often and more persistently. Please upgrade as soon as possible to avoid interruptions to your work. If you have any questions, please ask your campus' Area Tech or Digital Learning Coach.\n\nTo begin the upgrade, simply click the Upgrade macOS button. The installation process will begin shortly thereafter.",
-        "mainHeader": "Your Mac requires a macOS Upgrade",
+        "mainHeader": "Your MacBook requires a macOS Upgrade",
         "primaryQuitButtonText": "Not Now",
         "secondaryQuitButtonText": "I Understand",
         "subHeader": "A friendly reminder from the Frisco ISD Technology department"
